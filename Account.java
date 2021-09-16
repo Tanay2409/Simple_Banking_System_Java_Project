@@ -1,15 +1,14 @@
-//Base class
-//Abstract
+
 
 public abstract class Account{
 
-    //account number
+  
     private int accountNumber;
 
-    //Balance
+    
     protected double balance;
 
-    //Default constructor
+    
     public Account(){
 
     }
@@ -20,7 +19,7 @@ public abstract class Account{
         balance = 0.0;
     }
 
-    //Getter methods
+   
     public double getBalance(){
         
         return this.balance;
@@ -31,7 +30,7 @@ public abstract class Account{
         return this.accountNumber;
     }
 
-    //Abstract methods
+   
 
     public abstract void deposit(double amount);
 
