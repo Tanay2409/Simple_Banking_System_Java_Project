@@ -1,9 +1,6 @@
 public class CheckingAccount extends Account{
 
-
     private static double FEE=2.5;
-    
-    //default constructor
 
     public CheckingAccount(){
         super();
